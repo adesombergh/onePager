@@ -1,0 +1,349 @@
+body {
+	background-color: #129490;
+}
+/*********************    COULEURS    ********************/
+
+.bg-beige {
+	background-color: #E0A890;
+}
+.bg-jaune {
+	background-color: #E2C23E;
+}
+.bg-vert {
+	background-color: #45CE60;
+}
+.bg-orange {
+	background-color: #FFAE50;
+}
+.bg-oddblue {
+	background-color: #70ACB7;
+}
+
+/*********************    NAVBAR    ********************/
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.logo {
+	margin-top: 60px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	font-family: 'Concert One', cursive;
+	font-size: 26px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #FFAE50;
+	background-color: transparent;
+}
+
+.nav  {
+	width: 100%;
+}
+.nav>li {
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	display: block;
+}
+.navbar-default .navbar-collapse {
+	border: none;
+	position: fixed;
+	top:0;
+	width: 100%;
+	background-color: rgba(0,0,0,.2);
+	z-index: 9999;
+}
+
+@media (min-width:768px) {
+	.nav>li {
+		width: 25%;
+		display: inline-block;
+	}
+	.navbar-default .navbar-collapse {
+		position: relative;
+		background-color: transparent;
+	}
+}
+
+
+
+/*.in .navbar-nav li{
+	width: 100%;
+}*/
+
+.navbar-header {
+	position: fixed;
+	top: 10px;
+	right: 20px;
+	z-index: 10000;
+}
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+	background-color: #45CE60;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #000;
+}
+
+/*********************    END NAVBAR    ********************/
+/*********************    DEBUT CONTENT    ********************/
+
+.box {
+	background-color: #fff;
+	border-radius: 0px;
+	box-shadow: 10px 10px 0px rgba(0,0,0,.56);
+	padding-top: 50px;
+}
+@media (min-width:768px) {
+	.box {
+		border-radius: 25px;
+		margin-bottom: 100px;
+	}
+}
+
+.inner-wrapper{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.white-space {
+	height: 60px;
+}
+
+.big-card{
+	background-color: red;
+	height: 635px;
+	border-radius: 10px;
+    background-image: url("images/Tamarix1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+	margin-bottom: 28px;
+}
+
+
+
+
+/******** CARDS ********/
+.card {
+	padding: 20px;
+	border-radius: 10px;
+	font-family: 'Gochi Hand', cursive;
+	color: #fff;
+	margin-bottom: 28px;
+}
+.card span.icone img {
+	width: 67px;
+	height: 67px;
+}
+.card .title {
+	padding: 20px;
+	font-size: 55px;
+}
+.card .text {
+	text-align: center;
+	padding: 15px;
+	font-size: 18px;
+}
+
+/******** CITATIONS ********/
+
+
+.citation {
+	margin: 1.5em 10px;
+	margin-top: 50px;
+	padding: 0.5em 10px;
+	color: #fff;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 30px;
+	font-weight: 700;
+	quotes: "\201C""\201D""\201C""\201D";
+	text-shadow: 1px 1px rgba(0,0,0,.5);
+}
+.citation:before {
+	color: #fff;
+	content: open-quote;
+	font-family: 'Concert One', cursive;
+	font-size: 5em;
+	line-height: 0.1em;
+	margin-right: 0;
+	vertical-align: -0.4em;
+}
+.citation span {
+	display: inline;
+}
+/******** BLOG ITEM ********/
+
+.blogitem .thumb img{
+	border-radius: 10px;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+.blogitem h4{
+	margin-bottom: 10px;
+}
+
+.blogitem .author, .blogitem .separator, .blogitem .date{
+	font-size: 16px;
+	font-family: 'Concert One', cursive;
+	color: #70B77E;
+}
+
+.blogitem .separator{
+	color: #FFAE50;
+	margin: 0 20px;
+}
+
+.blogitem p{
+	margin-top: 10px;
+	display: block;
+}
+/*********************    TYPOGRAPHIE    ********************/
+
+h1 {
+	color: #fff;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	font-weight: 700;
+	display: inline-block;
+	border-radius: 5px;
+	min-width: 200px;
+	max-width: 600px;
+	text-align: center;
+	box-shadow: 10px 10px rgba(0,0,0,.2);
+	margin: 50px 0;
+}
+
+h2 {
+	color: #4A4A4A;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 40px;
+	font-weight: 700;
+	font-style: italic;
+	margin: 40px 0;
+}
+
+h3 {
+	color: #4A4A4A;
+	font-family: 'Concert One', cursive;
+	font-size: 30px;
+	margin: 40px 0;
+}
+
+h4 {
+	color: #4A4A4A;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+p {
+	color: #4A4A4A;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 40px 0;
+}
+
+p.lead {
+	line-height: 28px;
+	font-weight: 500;
+	margin: 40px 0;
+}
+
+ul {
+	padding-left: 10px;
+}
+
+li {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	line-height: 36px;
+	list-style: none;
+}
+
+.green-dot:before {
+	content :'•';
+	color: #129490;
+	font-size: 40px;
+	text-shadow: 4px 4px rgba(0,0,0,0.2);
+	margin-right: 6px;
+	position: relative;
+	top:7px;
+}
+
+#full-width .item {
+  max-height: 500px;
+  min-width: auto;
+}
+
+
+/*********************   FIN TYPOGRAPHIE    ********************/
+
+
+.footer {
+	background-color: #272727;
+	border-radius: 0px;
+}
+@media (min-width:768px) {
+	.footer {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+}
+
+.footer p {
+	color: #45CE60;
+	font-family: 'Concert One', cursive;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/*********************   FORMULAIRE    ********************/
+address{
+	margin-top: 100px;
+	color: #fff;
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+
+
+.myForm {
+	margin-bottom: 200px;
+}
+
+.myForm input,.myForm textarea {
+	border: 1px solid #065143;
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	color: #065143;	
+}
+.myForm button {
+	padding: 20px 30px;
+	background-color: #45C3CE;
+	border: 1px solid #129490;
+	color: #fff;
+	font-family: 'Concert One', cursive;
+	font-size: 22px;
+	text-shadow: 1px 1px rgba(0,0,0,.5);
+	border-radius: 12px;
+}
+
