@@ -79,4 +79,4 @@ Une liste des principaux partenaires de l’ASBL, publiques et privés.
 
 [Projet GitHub](https://github.com/adesombergh/onePager)
 
-[Live demo du projet](http://www.desombergh.be/tamaris)
+[Live demo du projet](http://desombergh.be/onePager/)
