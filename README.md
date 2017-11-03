@@ -73,3 +73,10 @@ Transférer le long texte de la page d’accueil ici.
 Une liste des principaux partenaires de l’ASBL, publiques et privés.
 
 ￼
+## Liens
+
+[Site Actuel](http://www.letamaris-cas.be)
+
+[Projet GitHub](https://github.com/adesombergh/onePager)
+
+[Live demo du projet](http://www.desombergh.be/tamaris)
